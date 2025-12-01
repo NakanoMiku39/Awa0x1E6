@@ -21,7 +21,7 @@ modules:
     repos:
       copr:
         - atim/starship
-        - zullyb/v2rayA
+        - zhullyb/v2rayA
     install:
       packages:
         - micro
