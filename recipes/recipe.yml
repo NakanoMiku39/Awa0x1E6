@@ -26,7 +26,7 @@ modules:
       packages:
         - micro
         - starship
-        - emacs
+        - emacs                 # Editor
         - niri
         - alacritty
         - fuzzel
@@ -37,7 +37,11 @@ modules:
         - xwayland-satellite
         - gdm
         - mako
-        - dae
+        - dae                       # Proxy
+        - neofetch
+        - fish                      # Shell
+        - fcitx5                    # Input method
+        - fcitx5-chinese-addons
     # remove:
     #   packages:
         # example: removing firefox (in favor of the flatpak)
@@ -54,5 +58,16 @@ modules:
           # - org.mozilla.firefox
           # - org.gnome.Loupe
       # - scope: user # Also add Flathub user repo, but no user packages
-
+  - type: fonts
+    fonts:
+      nerd-fonts:
+        - FiraCode
+        - Hack
+        - Terminus
+        - JetBrainMono
+        - NerdFontsSymbolsOnly
+      google-fonts:
+        - Roboto
+        - Open Sans
+        - Inter
   - type: signing # this sets up the proper policy & signing files for signed images to work fully
