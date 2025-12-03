@@ -64,7 +64,7 @@ modules:
         - FiraCode
         - Hack
         - Terminus
-        - JetBrainMono
+        - JetBrainsMono
         - NerdFontsSymbolsOnly
       google-fonts:
         - Roboto
