@@ -38,7 +38,7 @@ modules:
         - gdm
         - mako
         - dae                       # Proxy
-        - neofetch
+        - fastfetch
         - fish                      # Shell
         - fcitx5                    # Input method
         - fcitx5-chinese-addons
