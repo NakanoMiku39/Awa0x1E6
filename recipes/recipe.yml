@@ -21,10 +21,8 @@ modules:
     repos:
       copr:
         - atim/starship
-        - zhullyb/v2rayA
     install:
       packages:
-        - micro
         - starship
         - emacs                 # Editor
         - niri
@@ -42,6 +40,17 @@ modules:
         - fish                      # Shell
         - fcitx5                    # Input method
         - fcitx5-chinese-addons
+        - wl-clipboard
+        - xdg-desktop-portal-gnome
+        - polkit-gnome
+        - NetworkManager-tui
+        - brightnessctl
+        - playerctl
+        - grim
+        - slurp
+        - blueman
+        - thunar
+        - cliphist
     # remove:
     #   packages:
         # example: removing firefox (in favor of the flatpak)
