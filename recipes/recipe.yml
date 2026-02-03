@@ -21,6 +21,7 @@ modules:
     repos:
       copr:
         - atim/starship
+        - zhullyb/v2rayA
     install:
       packages:
         - starship
@@ -33,16 +34,12 @@ modules:
         - waybar
         - swaybg
         - xwayland-satellite
-        - gdm
         - mako
         - dae                       # Proxy
         - fastfetch
         - fish                      # Shell
         - fcitx5                    # Input method
         - fcitx5-chinese-addons
-        - wl-clipboard
-        - xdg-desktop-portal-gnome
-        - polkit-gnome
         - NetworkManager-tui
         - brightnessctl
         - playerctl
@@ -50,7 +47,7 @@ modules:
         - slurp
         - blueman
         - thunar
-        - cliphist
+
     # remove:
     #   packages:
         # example: removing firefox (in favor of the flatpak)
