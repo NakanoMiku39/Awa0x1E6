@@ -25,16 +25,16 @@ modules:
     install:
       packages:
         - starship
-        - emacs                 # Editor
-        - niri
-        - alacritty
+        - emacs                     # Editor
+        - niri                      # Tiling window manager
+        - alacritty                 # Terminal
         - fuzzel
         - swaylock
         - swayidle
-        - waybar
-        - swaybg
+        - waybar                    # Status bar
+        - swaybg                    # Wallpaper manager
         - xwayland-satellite
-        - mako
+        - mako                      # Notification manager
         - dae                       # Proxy
         - fastfetch
         - fish                      # Shell
@@ -47,7 +47,7 @@ modules:
         - slurp
         - blueman
         - thunar
-
+        - openssh
     # remove:
     #   packages:
         # example: removing firefox (in favor of the flatpak)
