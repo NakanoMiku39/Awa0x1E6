@@ -38,6 +38,8 @@ modules:
         - dae                       # Proxy
         - fastfetch
         - fish                      # Shell
+        - zsh
+        - rclone                    # Cloud storage sync
         - fcitx5                    # Input method
         - fcitx5-chinese-addons
         - NetworkManager-tui
