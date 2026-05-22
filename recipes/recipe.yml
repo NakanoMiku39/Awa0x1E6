@@ -50,6 +50,7 @@ modules:
         - blueman
         - thunar
         - openssh
+        - fuse-sshfs
     # remove:
     #   packages:
         # example: removing firefox (in favor of the flatpak)
