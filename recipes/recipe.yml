@@ -45,12 +45,16 @@ modules:
         - NetworkManager-tui
         - brightnessctl
         - playerctl
+        - pavucontrol               # Audio mixer
         - grim
         - slurp
+        - swappy                    # Screenshot annotation tool
+        - wl-clipboard              # Wayland clipboard utilities
         - blueman
         - thunar
         - openssh
         - fuse-sshfs
+        - stow
     # remove:
     #   packages:
         # example: removing firefox (in favor of the flatpak)
@@ -63,9 +67,9 @@ modules:
       - notify: true # Send notification after install/uninstall is finished (true/false)
         scope: system
         # If no repo information is specified, Flathub will be used by default
-        # install: # system flatpaks we want all users to have and not remove
+        install: # system flatpaks we want all users to have and not remove
           # - org.mozilla.firefox
-          # - org.gnome.Loupe
+          - org.gnome.Loupe
       # - scope: user # Also add Flathub user repo, but no user packages
   - type: fonts
     fonts:
