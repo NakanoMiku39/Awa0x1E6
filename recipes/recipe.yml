@@ -24,7 +24,7 @@ modules:
         - zhullyb/v2rayA
     install:
       packages:
-        - starship
+        # - starship
         - emacs                     # Editor
         - niri                      # Tiling window manager
         - alacritty                 # Terminal
@@ -55,6 +55,7 @@ modules:
         - openssh
         - fuse-sshfs
         - stow
+        - rg
     # remove:
     #   packages:
         # example: removing firefox (in favor of the flatpak)
